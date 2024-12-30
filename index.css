@@ -1,0 +1,71 @@
+body {
+    background: cornsilk;
+}
+
+.present {
+    opacity: 0;
+    cursor: pointer;
+}
+
+main {
+    display: flex;
+}
+
+.rightPanel {
+    width: 100%;
+}
+
+.title {
+    width: 100%;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: x-large;
+}
+
+.description {
+    font-family: monospace;
+    font-size: x-large;
+    text-align: center;
+}
+
+.openedPresentWrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.openedPresent {
+    width: 80%;
+    background: yellowgreen;
+    margin-top: 4em;
+    height: 40em;
+    border: 3px solid black;
+    border-radius: 1em;
+}
+
+.openedPresent > .title {
+    margin-top: 1em;
+    width: 100%;
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.openedPresent > p {
+    margin-top: 1em;
+    width: 100%;
+    text-align: center;
+}
+
+.instructions {
+    margin-top: 4em;
+    margin-left: 4em;
+    font-size: larger;
+}
+
+.enjoyMessage {
+    width: 100%;
+    text-align: center;
+    margin-top: 5em;
+    font-size: larger;
+}
